@@ -17,7 +17,14 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 git clone https://github.com/ngjunya/YTLAssessment.git
 ```
 
-## Step 2: Run this project 
+## Step 2: Install required dependencies 
+
+```bash
+npm install
+```
+
+
+## Step 3: Run this project 
 ```bash
 react-native run-android
 ```
@@ -33,7 +40,7 @@ In case the project is not built, you can diagnose it with the following command
 npx react-native doctor
 ```
 
-## Environment Config
+## Environment config
 nodeJS - v20.12.2
 
 java - 17.0.11 2024-04-16 LTS
