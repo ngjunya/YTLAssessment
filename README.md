@@ -4,6 +4,11 @@
 1) This application is only built and tested on ANDROID.  
 2) This application uses biometric authentication, if authentication failed or biometric not available, you can skip the authentication by pressing the login button. 
 3) This application uses axios for http network request to receive JSON object data from "https://my-json-server.typicode.com/ngjunya/demo/transactions".
+4) In the worst case that this project could not run on your device, I have generated a signed .apk file and locate inside a folder called apk in the following directory.
+```
+/apk/app-release.apk
+```
+ Drag and drop this .apk file in emulator or open this file in real device will install the app.
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
