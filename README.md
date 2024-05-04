@@ -45,6 +45,8 @@ nodeJS - v20.12.2
 
 java - 17.0.11 2024-04-16 LTS
 
+react-native - 0.74.1
+
 The above are my working development environment configurations. If this project didn't manage to build on your device, it's completely normal as version conflict is one of the challenges in software engineering. 
 
 ## Folder Structure
