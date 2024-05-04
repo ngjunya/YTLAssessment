@@ -16,6 +16,7 @@ const AuthenticationScreen: React.FC = () => {
     try {
       const { available } = await rnBiometrics.isSensorAvailable();
       if (!available) {
+        setBiometricStatus(false);
         setAuthenticationStatus("Biometric authentication not available on this device.");
         return;
       }

@@ -10,7 +10,6 @@ interface TransactionListItemProps {
 const TransactionListItem: React.FC<TransactionListItemProps> = ({ transaction }) => {
   const navigation = useNavigation<any>();
   const handlePress = (selectedTransaction: Transaction) => {
-    // Navigate to the new screen with the selected transaction
     console.log(selectedTransaction);
     navigation.navigate("TransactionDetailsScreen", { transaction: selectedTransaction });
   };

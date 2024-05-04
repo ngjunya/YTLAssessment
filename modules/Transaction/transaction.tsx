@@ -14,15 +14,12 @@ const TransactionScreen: React.FC = () => {
   const getTransactions = async () => {
     setRefreshing(true);
     try {
-      // Fetch transactions from the API
       const fetchedTransactions = await fetchTransactions();
-      // Update state with the fetched transactions
       setTransactions(fetchedTransactions);
       setRefreshing(false);
-      setLoading(false); // Set loading state to false
+      setLoading(false);
     } catch (error) {
-      console.error("Error fetching transactions:", error);
-      setLoading(false); // Set loading state to false in case of error
+      setLoading(false);
     }
   };
 
